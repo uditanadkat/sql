@@ -1,0 +1,11 @@
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 1999;
+ 
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 2000;
+ 
+SELECT AVG(imdb_rating)
+FROM movies
+WHERE year = 2001;
